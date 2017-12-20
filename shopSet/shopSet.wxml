@@ -1,0 +1,3 @@
+<button bindtap='gotodrink'>饮品</button>   
+<button bindtap='gotosnack'>碎嘴</button>
+<button bindtap='gotosuit'>套餐</button>

@@ -1,0 +1,17 @@
+<!--deliveryAddress/selectMenu/selectMenu.wxml-->
+<!--收获地址-->
+<view wx:if="{{isHaveAddress}}">
+  <view class="ui-padding-10">
+      <view class="ui-flex">
+        <text class="ui-width-50">收货人:{{addressInfo.consigneeName}}</text>
+        <text class="ui-width-50 cart-phonenum">{{addressInfo.phoneNum}}</text>
+      </view>
+      <view class="ui-pt-10">
+        <text>{{addressInfo.province + " " +addressInfo.city + " " + addressInfo.district + " " + addressInfo.detailedInfo}}</text>
+      </view>
+    </view>
+    <button class="btn-area-button" bindtap="selectToherAdress" type="primary">选择其他地址</button>
+  </view>
+  <view wx:else>
+    <button class="btn-area-button" bindtap="addAdress" type="primary">填写收获地址</button>
+  </view>

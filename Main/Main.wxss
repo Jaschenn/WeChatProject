@@ -1,0 +1,18 @@
+/* Main/Main.wxss */
+.copyright{
+    color: white;
+    padding: 5px;
+    margin-top: 100px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-align: center;
+    background-color: darkblue;
+}
+.copyright_item{
+    margin-top: 5px;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px;
+}
