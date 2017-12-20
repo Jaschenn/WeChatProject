@@ -1,0 +1,5 @@
+<!--Main/Main.wxml-->
+<button bindtap='gotoUserCenter'>个人中心</button>
+<button bindtap='gotoAddress'>收货地址</button>
+<button>历史订单</button>
+<button bindtap='gotoStore'>店铺设置</button>
